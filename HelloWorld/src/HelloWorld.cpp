@@ -25,5 +25,6 @@ void setup() {
 }
 
 void loop() {
-	cout << "!!!Hello World!!!" << endl;
+	static int i = 0;
+	cout << i++ << endl;
 }
