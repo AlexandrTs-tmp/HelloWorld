@@ -9,7 +9,21 @@
 #include <iostream>
 using namespace std;
 
+void setup();
+void loop();
+
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	setup();
+	for (int i = 0; i < 10; i++) {
+		loop();
+	}
 	return 0;
+}
+
+void setup() {
+
+}
+
+void loop() {
+	cout << "!!!Hello World!!!" << endl;
 }
